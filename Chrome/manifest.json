@@ -1,0 +1,20 @@
+{
+   "icons": {
+      "150": "assets/icon.png"
+   },
+   "action": {
+    "default_title": "Save Clothing Image"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+   "author": "Jedi-Coder1",
+   "description": "Saves Clothing As PNG's",
+   "manifest_version": 3,
+   "name": "Save Clothing Image",
+   "host_permissions": [
+      "*://www.roblox.com/catalog/*"
+   ],
+   "permissions": ["scripting", "downloads"],
+   "version": "1.0"
+}

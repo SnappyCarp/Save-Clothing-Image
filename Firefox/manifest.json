@@ -1,0 +1,26 @@
+{
+   "icons": {
+      "150": "assets/icon.png"
+   },
+   "action": {
+    "default_title": "Save Clothing Image"
+  },
+  "background": {
+   "scripts": ["background.js"]
+  },
+   "author": "Jedi-Coder1",
+   "description": "Saves Clothing As PNG's",
+   "manifest_version": 3,
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "SaveClothingImage@Jedi-Coder1",
+         "strict_max_version": "109.0"
+      }
+   },
+   "name": "Save Clothing Image",
+   "host_permissions": [
+      "*://www.roblox.com/catalog/*"
+   ],
+   "permissions": ["scripting", "downloads"],
+   "version": "1.0"
+}
